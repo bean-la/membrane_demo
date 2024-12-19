@@ -8,7 +8,7 @@ MIX_ENV=prod mix compile
 
 # Compile assets
 # Make sure tailwind and esbuild are installed
-MIX_ENV=prod mix assets.build
+# MIX_ENV=prod mix assets.build
 # Build minified assets
 MIX_ENV=prod mix assets.deploy
 
